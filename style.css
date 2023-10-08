@@ -1,0 +1,79 @@
+/* Common style */
+body{
+    margin: 0;
+    padding: 0;
+    background: #1C1C1E;
+    color: #6F6D5E;
+}
+#root{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#root h1{
+    width: 100%;
+}
+#root a{
+    width: 30%;
+    color: #A3B8AB;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 30px;
+    transition: 0.5s;
+}
+#root a:hover{
+    background: #2C2C2C;
+    transition: 0.5s;
+}
+
+/* Page Preview (thumbnails) */
+.thumbnails-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.thumbnails-tank{
+    max-width: 200px;
+    width: 100%;
+}
+.thumbnails-tank img{
+    display: block;
+    max-width: 100%;
+    height: max-content;
+}
+.thumbnails-tank-info{
+    display: flex;
+}
+.thumbnails-tank-info img, .thumbnails-tank-info span{
+    margin-right: 5px;
+}
+
+
+/* Page tank details */
+.tank-details{
+    color: #A19E86;
+    width: 100%;
+}
+.tank-details-container{
+    display: flex;
+}
+.tank-details-left{
+    width: 40%;
+}
+.tank-details-right{
+    width: 60%;
+}
+.tank-details-img{
+    display: block;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 5px;
+}
+.btn-back{
+    cursor: pointer;
+}
